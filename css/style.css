@@ -21,48 +21,7 @@ body {
 .logo{
   width: 70px;
 }
-@-webkit-keyframes logo
 
-/* Safari and Chrome */
-  {
-  from {
-      -webkit-transform: rotatey(0deg);
-      -o-transform: rotatey(0deg);
-      transform: rotatey(0deg);
-  }
-
-  to {
-      -webkit-transform: rotatey(360deg);
-      -o-transform: rotatey(360deg);
-      transform: rotatey(360deg);
-  }
-}
-
-@keyframes logo {
-  from {
-      -ms-transform: rotatey(0deg);
-      -moz-transform: rotatey(0deg);
-      -webkit-transform: rotatey(0deg);
-      -o-transform: rotatey(0deg);
-      transform: rotatey(0deg);
-  }
-
-  to {
-      -ms-transform: rotatey(360deg);
-      -moz-transform: rotatey(360deg);
-      -webkit-transform: rotatey(360deg);
-      -o-transform: rotatey(360deg);
-      transform: rotatey(360deg);
-  }
-}
-
-.logo {
-  -webkit-animation: logo 2s linear infinite;
-  -moz-animation: logo 2s linear infinite;
-  -ms-animation: logo 2s linear infinite;
-  -o-animation: logo 2s linear infinite;
-  animation: logo 2s linear infinite;
-}
 
 .logo img {
   width: 100%;
@@ -644,6 +603,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .portfolio .desc {
     opacity: 1;
     background: transparent !important;
+    display: none;
   }
   .portfolio .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
