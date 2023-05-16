@@ -144,20 +144,20 @@
 					</div>
 					<div class="col-md-7 col-md-push-1 animate-box">
 						<div class="row">
-							<form>
+							<form name="contact" method="POST" data-netlify="true">
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="text" class="form-control" placeholder="Name" name="name" id="name">
+										<input type="text" class="form-control" placeholder="Name" name="name">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="form-group">
-										<input type="email" class="form-control" placeholder="Email" required name="email" id="email">
+										<input type="email" class="form-control" placeholder="Email" required name="email">
 									</div>
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="message" class="form-control" id="message" cols="30" rows="7"
+										<textarea name="message" class="form-control" id="" cols="30" rows="7"
 											placeholder="Message"></textarea>
 									</div>
 								</div>
@@ -166,7 +166,7 @@
 										<input type="submit" value="Send Message" class="btn btn-primary btn-modify">
 									</div>
 								</div>
-								<!-- <input type="hidden" name="form-name" value="contact" /> -->
+								<input type="hidden" name="form-name" value="contact" />
 							</form>
 						</div>
 					</div>
