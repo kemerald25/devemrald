@@ -416,6 +416,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .col-md-offset-3{
   display: flex !important;
   justify-content: center !important;
+  flex-wrap: wrap !important;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner {
@@ -496,7 +497,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 6em 3em;
   clear: both;
 }
-@media screen and () {
+/* @media screen and () {
   #fh5co-about,
   #fh5co-services,
   #fh5co-contact,
@@ -506,7 +507,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-footer {
     padding: 3em 1em;
   }
-}
+} */
 
 .services {
   position: relative;
@@ -564,6 +565,9 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .portfolio {
     height: 400px;
+  }
+  .col-md-offset-3 {
+    flex-wrap: wrap !important;
   }
 }
 @media screen and (max-width: 480px) {
@@ -980,7 +984,7 @@ input[type="text"] {
   margin-bottom: 2em;
 }
 .fh5co-heading h2 {
-  font-size: 13px;
+  font-size: 20px;
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 700;
